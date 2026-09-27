@@ -1195,6 +1195,16 @@ button.utility-link:hover, button.utility-link:focus-visible { color: var(--ink)
   margin-bottom: 42px;
 }
 
+/* Match the compact homepage scale on search and detail pages. */
+.search-inner { max-width: 640px; }
+.search-heading label { font-size: 18px; }
+.search-field { border: 0; border-bottom: 1px solid var(--ink-soft); background: transparent; padding-inline: 0; }
+.search-field .search-input { padding-block: 12px; }
+.search-panel { padding-block: 18px 24px; }
+.search-results a { font-size: 15px; padding-block: 10px; }
+.article-header h1 { font-size: clamp(28px, 3vw, 38px); }
+.static-page > h1 { font-size: clamp(28px, 3vw, 36px); margin-bottom: 28px; }
+
 @media (max-width: 768px) {
   .drawer-links {
     display: grid;
