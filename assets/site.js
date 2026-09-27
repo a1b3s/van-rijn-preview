@@ -37,7 +37,9 @@
     shown.forEach(a => {
       // Generated index URLs may never execute scripts or navigate off-site.
       if (!/^article(?:-[a-z0-9-]+)?\.html$/.test(a.href)) return;
-      const link = document.createElement('a'); link.href = (document.body.dataset.rootLinks === 'true' ? '/' : '') + a.href;
+      const configuredRoot = document.body.dataset.rootLinks;
+      const root = configuredRoot === 'true' ? '/' : (configuredRoot || '');
+      const link = document.createElement('a'); link.href = root + a.href;
       const title = document.createElement('span'); title.textContent = a.title;
       const meta = document.createElement('small'); meta.textContent = [a.category, a.date.replaceAll('-', '.')].filter(Boolean).join(' · ');
       link.append(title, meta); results.append(link);
