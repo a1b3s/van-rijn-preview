@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="VR">
+  <rect width="64" height="64" rx="6" fill="#F5EFE4"/>
+  <rect x="4" y="4" width="56" height="56" rx="3" fill="none" stroke="#C9A15B"/>
+  <text x="32" y="42" fill="#2B1F18" font-family="Cinzel, Georgia, serif" font-size="29" letter-spacing="-4" text-anchor="middle">VR</text>
+</svg>
