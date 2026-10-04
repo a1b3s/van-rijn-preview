@@ -88,7 +88,7 @@
   .museum-home .portrait-placeholder { width: 48px; font-size: 24px; }
   .museum-home .serial-pending { grid-column: 2; }
   .museum-home .serial-card h3 { font-size: 20px; }
-  .museum-home .creed p { font-size: 16px; }
+  .museum-home .creed p { font-size: 15.5px; }
 }
 
 @media (max-width: 540px) {
@@ -115,31 +115,31 @@
 .museum-home .feature-photo { aspect-ratio: 3.2 / 1; }
 .museum-home .feature-copy { gap: 8px 32px; }
 .museum-home .feature-copy .eyebrow { font-size: 12px; }
-.museum-home .feature-copy h1 { font-size: 32px; }
-.museum-home .feature-copy p { font-size: 15px; line-height: 1.9; }
+.museum-home .feature-copy h1 { font-size: 30px; }
+.museum-home .feature-copy p { font-size: 14.5px; line-height: 1.9; }
 .museum-home .text-link { font-size: 13px; }
 .museum-home .category-section { padding: 8px 0 30px; }
-.museum-home .section-heading { font-size: 18px; margin-bottom: 18px; }
+.museum-home .section-heading { font-size: 17.5px; margin-bottom: 18px; }
 .museum-home .card-grid { gap: 28px; }
 .museum-home .story-card figure { margin-bottom: 12px; }
 .museum-home .story-card { gap: 0; }
 .museum-home .story-card .editorial-image { min-height: 0; }
 .museum-home .story-card img { aspect-ratio: 2.4 / 1; }
-.museum-home .story-card h3 { font-size: 21px; margin-bottom: 8px; }
-.museum-home .story-card p { font-size: 14px; margin-bottom: 8px; }
+.museum-home .story-card h3 { font-size: 20px; margin-bottom: 8px; }
+.museum-home .story-card p { font-size: 13.5px; margin-bottom: 8px; }
 .museum-home .museum-editorial { gap: 32px; margin: 8px 0 30px; padding: 24px 0; }
 .museum-home .editor-note h2,
-.museum-home .latest-news h2 { font-size: 18px; margin-bottom: 14px; }
-.museum-home .editor-note p { font-size: 15px; line-height: 2; }
+.museum-home .latest-news h2 { font-size: 17.5px; margin-bottom: 14px; }
+.museum-home .editor-note p { font-size: 14.5px; line-height: 2; }
 .museum-home .latest-news { padding-left: 24px; }
 .museum-home .latest-item { grid-template-columns: 64px minmax(0, 1fr); gap: 14px; padding: 9px 0; }
 .museum-home .latest-item h3 { font-size: 14px; }
 .museum-home .serial-section { padding-bottom: 24px; }
 .museum-home .serial-card { grid-template-columns: 52px minmax(0, 1fr) auto; padding: 18px 0; gap: 18px; }
 .museum-home .portrait-placeholder { width: 48px; font-size: 24px; }
-.museum-home .serial-card h3 { font-size: 18px; }
+.museum-home .serial-card h3 { font-size: 17.5px; }
 .museum-home .creed { padding: 24px 0 30px; }
-.museum-home .creed p { font-size: 16px; }
+.museum-home .creed p { font-size: 15.5px; }
 
 @media (max-width: 768px) {
   .museum-home .site-header { padding-top: 8px; }
@@ -151,15 +151,15 @@
   .museum-home .feature-grid { padding: 16px 0 24px; gap: 14px; }
   .museum-home .feature-photo { aspect-ratio: 2 / 1; }
   .museum-home .feature-copy .eyebrow { margin-bottom: 8px; }
-  .museum-home .feature-copy h1 { font-size: 26px; margin-bottom: 10px; }
+  .museum-home .feature-copy h1 { font-size: 25px; margin-bottom: 10px; }
   .museum-home .feature-copy p { margin-bottom: 8px; }
   .museum-home .card-grid { gap: 24px; }
-  .museum-home .story-card h3 { font-size: 19px; }
+  .museum-home .story-card h3 { font-size: 18.5px; }
   .museum-home .museum-editorial { gap: 20px; }
   .museum-home .latest-news { padding: 20px 0 0; }
   .museum-home .serial-card { grid-template-columns: 44px minmax(0, 1fr); gap: 12px; }
   .museum-home .portrait-placeholder { width: 40px; font-size: 21px; }
-  .museum-home .serial-card h3 { font-size: 17px; }
+  .museum-home .serial-card h3 { font-size: 16.5px; }
 }
 
 @media (max-width: 540px) {
