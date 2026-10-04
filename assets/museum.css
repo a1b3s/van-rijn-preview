@@ -166,3 +166,11 @@
   .museum-home .story-card img { aspect-ratio: 2.25 / 1; }
   .museum-home .category-section { padding-bottom: 24px; }
 }
+
+/* Keep short editorial copy balanced as its container changes width. */
+.museum-home .editor-note p { max-width: none; text-wrap: balance; }
+.museum-home .editor-note .editor-signature { white-space: nowrap; }
+.museum-home .creed p { text-wrap: balance; }
+.museum-home .feature-copy p,
+.museum-home .story-card p,
+.museum-home .serial-card p { text-wrap: pretty; }
